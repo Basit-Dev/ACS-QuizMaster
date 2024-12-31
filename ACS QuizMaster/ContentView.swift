@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            //Header Section
+            // Header Section
             HStack {
                 Image(systemName: "graduationcap.fill")
                     .resizable()
@@ -20,8 +20,6 @@ struct ContentView: View {
 
                 Text("ACS Quiz Master")
                     .font(.headline)
-                    .fontWeight(.bold)
-                    .foregroundColor(.primary)
 
                 Spacer()
 
@@ -29,12 +27,12 @@ struct ContentView: View {
                     Image(systemName: "bell")
                         .foregroundColor(.gray)
 
-                    Image(systemName: "person")
+                    Image(systemName: "person.crop.circle")
                         .foregroundColor(.gray)
                 }
             }
-            .padding(.horizontal)
-            padding(.top, 16)
+           .padding(.horizontal)
+           .padding(.top, 16)
         }
         // Welcome Section
         VStack(alignment: .leading, spacing: 8) {
@@ -52,6 +50,7 @@ struct ContentView: View {
         .background(Color.blue)
         .cornerRadius(10)
         .padding(.horizontal)
+
     }
 }
 
